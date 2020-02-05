@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+ <!-- Compiled and minified CSS -->
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+/>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--my style.css-->
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <title>BOOTH V2</title>
+  </head>
+  <body>
+<!--START MATERIALIZE NAVBAR-->
+<div class="navbar-fixed">
+    <nav class="nav-wrapper indigo">
+      <div class="container">
+        <a href="#section1" class="brand-logo">BOOTH</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#section1">HOME</a></li>
+            <li><a href="#section2">GALLERY</a></li>
+            <li><a href="#section3">ABOUT</a></li>
+            <!-- <li><a href="#section4">Packages</a></li> -->
+            <!-- <li><a href="#section5">Quote</a></!-->
+            <li><a href="#section6">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<!--mobile side nav -->
+<ul class="sidenav" id="mobile-links">
+    <li><a href="#section1">HOME</a></li>
+      <li><a href="#section2">GALLERY</a></li>
+      <li><a href="#section3">ABOUT</a></li>
+      <!-- <li><a href="#section4">Packages</a></li> -->
+      <!-- <li><a href="#section5">Quote</a></li> -->
+      <li><a href="#section6">Contact</a></li>
+  </ul>
+<!--END MATERIALIZE NAVBAR-->
+<div class="container">
+  <!--SECTIONS START-->
+  <!--HOME / Slider / Corousel-->
+  <div id="section1">
+    <!--add class to div below / check doc on making slick full page width-->
+    <div class="">
+      <section id="slideshow">
+        <div class="slick">
+          <div><img src="images/6.jpg" alt="" /></div>
+          <img src="images/2.jpg" alt="" />
+          <img src="images/3.jpg" alt="" />
+          <img src="images/4.jpg" alt="" />
+          <img src="images/5.jpg" alt="" />
+          <!-- <img src="images/4.jpg" alt="" />
+        <img src="images/5.jpg" alt="" /> -->
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- GALLERY -->
+  <div id="section2" class="#fafafa lighten-5">
+    <h1>Gallery</h1>
+  </div>
+  <div id="section3">
+    <h1>OUR BOOTH</h1>
+  </div>
+  <!-- <div id="section4" class="indigo lighten-5">
+      <h1>BOOK TODAY!</h1>
+</section>
+    </div> -->
+  <!-- <div id="section5" class="indigo lighten-5">
+      <h1>GET A QUOTE</h1>
+    </div> -->
+  <div id="section6" >
+    <h1>GET IN TOUCH</h1>
+    <!--contact form-->
+    <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<!--footer--> 
+<footer class="page-footer grey darken-3">
+  <div class="container">
+<div class="row">
+  <div class="col s12 l6 offset-12">
+    <h5>About</h5>
+    <p>Still Media Group started in 2013 with a group of friends doing Photography. Since then the team has grown, and the company has branched out to do a lot more. Still Media Group also provides Videography services, Graphic Design, Web Design, and even Marketing services. Let us take care of whatever you need. We’ll help bring your ideas to life!</p>
+  </div>
+<!--social links-->
+<div class="col s12 l4">
+<h5>Connect</h5>
+<ul>
+  <li> <a href="#" class="grey-text text-lighten-3 ">Facebook</a> </li>
+  <li> <a href="#" class="grey-text text-lighten-3 ">Instagram</a> </li>
+  <li> <a href="#" class="grey-text text-lighten-3 ">Linked In</a> </li>
+  <li> <a href="#" class="grey-text text-lighten-3 ">Twitter</a> </li>
+</ul>
+</div>
+</div>
+  </div>
+<!--copyright info-->
+  <div class="footer-copyright grey darken-4">
+    <div class="container center-align">&copy; 2019 <a href="http://stillmediagroup.com"></a>Still Media Group </div>
+  </div>
+</footer>
+
+  <!--SCRIPT TAGS / CDN LINKS: *** DOWNLOAD MINIFIED VERSIONS OF ALL SCRIPTS AND LINK LOCALLY BEFORE PRODUCTION DEPLOYMENT - -->
+  <!-- <script src="/jquery3.4.1.min.js"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+</div>
+  </body>
+</html>

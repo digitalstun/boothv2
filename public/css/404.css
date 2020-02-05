@@ -1,0 +1,19 @@
+/* body {
+  background-image: url('../images/1.jpg');
+  width: 100%; 
+   no-repeat; 
+  min-height: 100%;
+} */
+
+div {
+  background-image: url('../images/1.jpg');
+  /* width: 100%; */
+}
+
+h1 {
+  margin-bottom: 5%;
+}
+
+p {
+  color: white;
+}

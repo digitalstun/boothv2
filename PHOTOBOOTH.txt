@@ -1,0 +1,118 @@
+booth web app
+
+******* - FUTURE UPDATES *********
+
+- allow means of texting fom website to smg - potential texting integration future update
+- spin the wheel for discount
+
+*************************************************************
+site examples
+http://preview.themeforest.net/item/picbooth-a-complete-photobooth-site-html-template/full_screen_preview/
+23539318?_ga=2.114942657.752914498.1571784842-176277817.1571784842
+
+
+** photobooth business websites
+https://photoboothint.com/
+
+https://photoboothint.com/8-websites-your-photo-booth-business-needs-to-be-listed-on/
+
+
+--------------------------------
+
+** web app
+
+html or ejs - start with HTML use ids on single page
+booth strap
+boot strap social icons
+
+----- FONTS -------------
+
+fonts google fonts
+
+-------------------------------------
+
+-------------- CONTACT FORM ----------------
+netlify - contact form
+
+
+--------------------- SLIDER / CAROUSEL ---------------------------
+slider/ carousel - glide js for main carousel - USED Slick js - implemented successfully
+style with drop shadow beneath images
+
+glider js for testimonials
+
+ - ----------------------------------- setup mail chimp API --------------------
+use smgbooth gmail to register for an acc
+
+** create pop up modal with newsletter signup
+
+
+------------------------------------------------------------------------------------
+
+*****/// TESTIMONIALS ///*****
+
+FROM GROUPON: February 22, 2019
+The service was great and the pictures came out fantastic and it was such a unbeatable price!! Would definitely use them again!!
+
+- FROM GROUPON: · October 23, 2018
+From the first phone call to the actual event, Joe and staff were professional, 
+friendly and very helpful. At the event, they went out of their way to make sure that everyone was having a good time.
+ I cannot say enough good things about this business and will definitely call upon them again for future events.
+
+- from google: Suzy Nelson
+4 months ago-
+I've had the pleasure of working with Still Media twice, once with Andrew and then with Joseph.
+ Both were so professional and also easygoing, especially when dealing with my chaotic family.
+ Just recently worked with Joseph and absolutely loved the photos we just got back. 
+This is really affordable too. Thank you to Still Media :D
+
+- tasia avelino
+11 months ago-
+Excellent quality and service. 
+  I super recommend it!
+
+
+  * from the knot:
+  Reviewed On 7/12/2017 by Tanya S
+Great guys to work with. Great personalities and fun to have around. They did a great job and we are very happy with their work!
+
+-- Reviewed On 1/06/2018 by Chelsie D
+Amazing! So professional, so helpful! Such talent and great artistic views. These guys are so thoroughly detailed and polite. Such a pleasure to work with! And such stunning photos!!
+
+---------------------------------
+
+**** FACEBOOK MESSENGER*******************
+
+add facebook messenger to smg + BOOTH website
+
+********************************************* 
+
+--------------------
+ADD SPIN THE WHEEL FOR A DISCOUNT TO BTH SMG / BOOTH WEBSITE
+USE JAVASCRIPT
+
+
+*************** MARKETING *******************
+
+- the knot and the others mentioned in the photobooth link above
+
+********************************************
+
+SETUP CRM / CUST. /SALES TRACKING
+** GOOGLE ANALYTICS 
+
+-------------------------------------------------------
+pricing charts used: https://startbootstrap.com/snippets/pricing-table/
+** needs font awesome 5: fontawesome.io
+
+
+
+**************************************************************
+
+how to make slick slider full width:
+https://foundation.zurb.com/forum/posts/24654-how-to-create-fullscreen-responsive-slider-using-slick
+
+
+***********************************************
+materialize css pricing table tutorial:
+https://youtu.be/7gHJrs7LcnQ 
